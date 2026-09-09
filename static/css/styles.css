@@ -1,0 +1,172 @@
+/* HuayuKaraoke Stylesheet */
+
+:root {
+  --tone-1: #38bdf8; /* 1st tone: blue */
+  --tone-2: #34d399; /* 2nd tone: green */
+  --tone-3: #fbbf24; /* 3rd tone: amber */
+  --tone-4: #f87171; /* 4th tone: rose */
+  --tone-5: #94a3b8; /* neutral tone: slate */
+}
+
+/* Tone styling when tone-colors are active */
+body.tone-colors-active .tone-1 {
+  color: var(--tone-1) !important;
+}
+body.tone-colors-active .tone-2 {
+  color: var(--tone-2) !important;
+}
+body.tone-colors-active .tone-3 {
+  color: var(--tone-3) !important;
+}
+body.tone-colors-active .tone-4 {
+  color: var(--tone-4) !important;
+}
+body.tone-colors-active .tone-5 {
+  color: var(--tone-5) !important;
+}
+
+/* Tone background badges */
+.tone-bg-1 { background-color: rgba(56, 189, 248, 0.15); border-color: rgba(56, 189, 248, 0.3); color: #38bdf8; }
+.tone-bg-2 { background-color: rgba(52, 211, 153, 0.15); border-color: rgba(52, 211, 153, 0.3); color: #34d399; }
+.tone-bg-3 { background-color: rgba(251, 191, 36, 0.15); border-color: rgba(251, 191, 36, 0.3); color: #fbbf24; }
+.tone-bg-4 { background-color: rgba(248, 113, 113, 0.15); border-color: rgba(248, 113, 113, 0.3); color: #f87171; }
+.tone-bg-5 { background-color: rgba(148, 163, 184, 0.15); border-color: rgba(148, 163, 184, 0.3); color: #94a3b8; }
+
+/* Interactive word chips in lyrics */
+.word-chip {
+  display: inline-block;
+  padding: 0 3px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.15s ease-in-out;
+}
+.word-chip:hover {
+  background-color: rgba(244, 63, 94, 0.25);
+  box-shadow: 0 0 8px rgba(244, 63, 94, 0.4);
+  transform: translateY(-1px);
+}
+
+/* Lyric Line Styling in Stage */
+.lyric-line {
+  padding: 12px 16px;
+  border-radius: 12px;
+  border: 1px solid transparent;
+  background-color: transparent;
+  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+  cursor: pointer;
+}
+
+.lyric-line:hover {
+  background-color: rgba(30, 41, 59, 0.6);
+  border-color: rgba(51, 65, 85, 0.8);
+}
+
+.lyric-line.active {
+  background: linear-gradient(90deg, rgba(225, 29, 72, 0.15) 0%, rgba(30, 41, 59, 0.8) 50%, rgba(225, 29, 72, 0.1) 100%);
+  border-color: rgba(244, 63, 94, 0.5);
+  box-shadow: 0 4px 20px -2px rgba(244, 63, 94, 0.25);
+  transform: scale(1.015);
+}
+
+.lyric-line.active .line-hanzi {
+  color: #ffffff;
+  font-weight: 800;
+  text-shadow: 0 0 16px rgba(244, 63, 94, 0.4);
+}
+
+.lyric-line.active .line-pinyin {
+  color: #fca5a5;
+  font-weight: 600;
+}
+
+.lyric-line.active .line-english {
+  color: #e2e8f0;
+}
+
+/* Loop line active badge on line item */
+.lyric-line.loop-target {
+  border-color: #fbbf24 !important;
+  box-shadow: 0 0 15px rgba(251, 191, 36, 0.3) !important;
+}
+
+/* Toggles & Visibility states */
+body.pinyin-hidden .pinyin-display,
+body.pinyin-hidden #spotlightPinyin {
+  display: none !important;
+}
+
+body.english-hidden .english-display,
+body.english-hidden #spotlightEnglish {
+  display: none !important;
+}
+
+/* Toggle pills */
+.toggle-pill {
+  background-color: #1e293b;
+  color: #94a3b8;
+  font-weight: 500;
+  transition: all 0.15s ease;
+}
+.toggle-pill:hover {
+  color: #f1f5f9;
+}
+.toggle-pill.active {
+  background-color: #e11d48;
+  color: #ffffff;
+  font-weight: 600;
+}
+
+/* Scrubber Line Markers */
+.timeline-marker {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background-color: rgba(244, 63, 94, 0.5);
+  pointer-events: none;
+  border-radius: 1px;
+}
+
+/* Modals */
+.modal-backdrop {
+  position: fixed;
+  inset: 0;
+  background-color: rgba(2, 6, 23, 0.85);
+  backdrop-filter: blur(6px);
+  z-index: 60;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  animation: fadeIn 0.15s ease-out;
+}
+
+.modal-content {
+  animation: scaleUp 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes scaleUp {
+  from { opacity: 0; transform: scale(0.95); }
+  to { opacity: 1; transform: scale(1); }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #334155;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #475569;
+}
