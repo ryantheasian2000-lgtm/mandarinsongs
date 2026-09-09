@@ -30,8 +30,7 @@ except Exception:
 FALLBACK_MODELS = [
     "gemini-3.5-flash-lite",
     "gemini-3.5-flash",
-    "gemini-3.6-flash",
-    "gemini-3.1-flash"
+    "gemini-3.6-flash"
 ]
 
 def get_api_key(passed_key: Optional[str] = None) -> Optional[str]:
@@ -380,16 +379,6 @@ Return strictly valid JSON:
 
     # Heuristic fallback if Gemini is offline or unkeyed
     clean_title = video_title
-    for tag in ["【Official MV】", "[Official MV]", "【官方MV】", "官方MV", "Official Music Video", "MV", "HD", "4K", "（歌詞版）", "【歌詞】", "歌詞", "Lyrics"]:
-        clean_title = clean_title.replace(tag, "")
-    clean_title = clean_title.strip(" -_[]【】()")
-    parts = clean_title.split("-", 1)
-    if len(parts) == 2:
-        artist = parts[0].strip()
-        track = parts[1].strip()
-    else:
-        artist = author.replace("- Topic", "").strip() if author else "Mandarin Artist"
-        track = clean_title
     for tag in [
         "【Official MV】", "[Official MV]", "【官方MV】", "官方MV", "Official Music Video",
         "Official Video", "Official Audio", "MV", "HD", "4K", "1080P", "1080p",
@@ -465,7 +454,6 @@ Return strictly valid JSON:
     return {
         "track_name": track,
         "artist_name": artist,
-        "english_title": "",
         "english_title": english_title,
         "album_name": ""
     }
