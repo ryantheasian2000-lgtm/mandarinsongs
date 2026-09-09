@@ -155,6 +155,8 @@ def fetch_lrclib_lyrics(track_name: str, artist_name: str, album_name: Optional[
     """
     Queries LRCLIB (https://lrclib.net/docs) for synchronized lyrics.
     Tries GET /api/get, with fallback to GET /api/search.
+    Uses multi-strategy candidate extraction (exact GET /api/get, Chinese token matching,
+    and /api/search with duration scoring) to reliably resolve lyrics from YouTube titles.
     """
     if not track_name:
         return None
@@ -170,6 +172,8 @@ def fetch_lrclib_lyrics(track_name: str, artist_name: str, album_name: Optional[
         query_params["album_name"] = album_name.strip()
     if duration and duration > 0:
         query_params["duration"] = int(duration)
+    def _extract_chinese(text: str) -> str:
+        return "".join(re.findall(r"[\u4e00-\u9fff]+", text or ""))
 
     get_url = f"{LRCLIB_BASE_URL}/api/get?{urllib.parse.urlencode(query_params)}"
     try:
@@ -183,6 +187,15 @@ def fetch_lrclib_lyrics(track_name: str, artist_name: str, album_name: Optional[
             print(f"LRCLIB /api/get HTTP error {e.code}: {e}")
     except Exception as e:
         print(f"LRCLIB /api/get error: {e}")
+    def _clean_title(text: str) -> str:
+        cleaned = text or ""
+        for tag in [
+            "【Official MV】", "[Official MV]", "【官方MV】", "官方MV", "Official Music Video",
+            "Official Video", "Official Audio", "MV", "HD", "4K", "1080P", "1080p",
+            "（歌詞版）", "【歌詞】", "歌詞", "Lyrics", "字幕版", "動態歌詞", "KTV", "Audio", "HQ"
+        ]:
+            cleaned = re.sub(re.escape(tag), "", cleaned, flags=re.IGNORECASE)
+        return cleaned.strip(" -_")
 
     # Attempt 2: Search query (/api/search)
     search_q = f"{track_name} {artist_name}".strip()
@@ -199,6 +212,151 @@ def fetch_lrclib_lyrics(track_name: str, artist_name: str, album_name: Optional[
                 return results[0]
     except Exception as e:
         print(f"LRCLIB /api/search error: {e}")
+    cleaned_track = _clean_title(track_name)
+    cleaned_artist = _clean_title(artist_name)
 
     return None
+    # Build prioritized list of (track, artist) candidates for exact /api/get
+    get_candidates = []
+    if cleaned_track:
+        get_candidates.append((cleaned_track, cleaned_artist))
+
+    # Bracket extraction: Artist【Title】or Title【Artist】
+    bracket_m = re.search(r"[【《\[\(](.*?)(?:[】》\]\)]|$)", cleaned_track)
+    if bracket_m:
+        inside = bracket_m.group(1).strip()
+        outside = re.sub(r"[【《\[\(].*?(?:[】》\]\)]|$)", " ", cleaned_track).strip(" -_")
+        inside_zh = _extract_chinese(inside)
+        outside_zh = _extract_chinese(outside)
+        if inside_zh and outside_zh:
+            get_candidates.append((inside_zh, outside_zh))
+            get_candidates.append((outside_zh, inside_zh))
+        elif inside_zh:
+            get_candidates.append((inside_zh, outside_zh or cleaned_artist))
+        elif outside_zh:
+            get_candidates.append((outside_zh, inside_zh or cleaned_artist))
+        if inside and outside:
+            get_candidates.append((inside, outside))
+
+    # Dash split extraction: Artist - Track or Track - Artist
+    if " - " in cleaned_track or "-" in cleaned_track:
+        parts = [p.strip() for p in re.split(r"\s*-\s*", cleaned_track) if p.strip()]
+        if len(parts) >= 2:
+            p0, p1 = parts[0], parts[1]
+            p0_zh = _extract_chinese(p0)
+            p1_zh = _extract_chinese(p1)
+            if p0_zh and p1_zh:
+                get_candidates.append((p1_zh, p0_zh))
+                get_candidates.append((p0_zh, p1_zh))
+            get_candidates.append((p1, p0))
+            get_candidates.append((p0, p1))
+
+    # Pure Chinese extraction
+    track_zh = _extract_chinese(cleaned_track)
+    artist_zh = _extract_chinese(cleaned_artist)
+    if track_zh and artist_zh:
+        get_candidates.append((track_zh, artist_zh))
+
+    # Strategy 1: Attempt exact GET /api/get with each candidate
+    tried_get = set()
+    for cand_track, cand_artist in get_candidates:
+        cand_track = cand_track.strip()
+        cand_artist = cand_artist.strip()
+        if not cand_track or (cand_track, cand_artist) in tried_get:
+            continue
+        tried_get.add((cand_track, cand_artist))
+
+        query_params = {
+            "track_name": cand_track,
+            "artist_name": cand_artist
+        }
+        if album_name and album_name.strip():
+            query_params["album_name"] = album_name.strip()
+        if duration and duration > 0:
+            query_params["duration"] = int(duration)
+
+        get_url = f"{LRCLIB_BASE_URL}/api/get?{urllib.parse.urlencode(query_params)}"
+        try:
+            req = urllib.request.Request(get_url, headers=headers)
+            with urllib.request.urlopen(req, timeout=8, context=ssl_context) as resp:
+                data = json.loads(resp.read().decode("utf-8"))
+                if data.get("syncedLyrics"):
+                    return data
+                elif data.get("plainLyrics") and not data.get("syncedLyrics"):
+                    # Keep as fallback if no synced lyrics found later
+                    fallback_plain = data
+        except urllib.error.HTTPError as e:
+            if e.code != 404:
+                print(f"LRCLIB /api/get HTTP {e.code} for ({cand_track}, {cand_artist}): {e}")
+        except Exception as e:
+            print(f"LRCLIB /api/get error for ({cand_track}, {cand_artist}): {e}")
+
+    # Strategy 2: Attempt search queries via GET /api/search?q=...
+    search_queries = []
+    # If Chinese track and artist available:
+    for cand_track, cand_artist in get_candidates:
+        if cand_track and cand_artist:
+            search_queries.append(f"{cand_track} {cand_artist}".strip())
+    # Track alone (critical when artist is an uploader/label like Pandarin or Rock Records)
+    if track_zh:
+        search_queries.append(track_zh)
+    if cleaned_track:
+        search_queries.append(cleaned_track)
+    if cleaned_track and cleaned_artist:
+        search_queries.append(f"{cleaned_track} {cleaned_artist}".strip())
+
+    best_match = None
+    best_score = -1
+    tried_search = set()
+
+    for q in search_queries:
+        q = q.strip()
+        if not q or q in tried_search:
+            continue
+        tried_search.add(q)
+
+        search_url = f"{LRCLIB_BASE_URL}/api/search?q={urllib.parse.quote(q)}"
+        try:
+            req = urllib.request.Request(search_url, headers=headers)
+            with urllib.request.urlopen(req, timeout=8, context=ssl_context) as resp:
+                results = json.loads(resp.read().decode("utf-8"))
+                if isinstance(results, list) and results:
+                    for item in results:
+                        score = 0
+                        has_synced = bool(item.get("syncedLyrics"))
+                        if has_synced:
+                            score += 100
+                        elif item.get("plainLyrics"):
+                            score += 20
+
+                        # Duration scoring if duration is known
+                        item_dur = item.get("duration")
+                        if duration and item_dur:
+                            diff = abs(int(item_dur) - int(duration))
+                            if diff <= 5:
+                                score += 50
+                            elif diff <= 15:
+                                score += 25
+                            elif diff <= 30:
+                                score += 10
+
+                        # Chinese name matching
+                        r_track_zh = _extract_chinese(item.get("trackName", ""))
+                        r_artist_zh = _extract_chinese(item.get("artistName", ""))
+                        if track_zh and r_track_zh and (track_zh in r_track_zh or r_track_zh in track_zh):
+                            score += 30
+                        if artist_zh and r_artist_zh and (artist_zh in r_artist_zh or r_artist_zh in artist_zh):
+                            score += 20
+
+                        if score > best_score:
+                            best_score = score
+                            best_match = item
+
+                        # If perfect match found (synced lyrics and high score), return immediately
+                        if has_synced and score >= 150:
+                            return item
+        except Exception as e:
+            print(f"LRCLIB /api/search error for {q}: {e}")
+
+    return best_match
 

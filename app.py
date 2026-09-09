@@ -466,6 +466,10 @@ def import_youtube():
         lrc_content = ""
         if lrclib_data:
             lrc_content = lrclib_data.get("syncedLyrics") or lrclib_data.get("plainLyrics") or ""
+            if lrclib_data.get("trackName"):
+                track_name = lrclib_data["trackName"]
+            if lrclib_data.get("artistName"):
+                artist_name = lrclib_data["artistName"]
 
         # Step 4: Download YouTube audio via yt-dlp
         audio_info = youtube_lrclib_service.download_youtube_audio(
@@ -485,6 +489,7 @@ def import_youtube():
             # Fallback placeholder if no lyrics found in LRCLIB
             fallback_text = f"{track_name}\n{artist_name}"
             parsed_lines = parse_lrc_text_into_lines(fallback_text)
+            parsed_lines = []
 
         # Step 6: Generate line-by-line English translation with Gemini 3.5 Flash-Lite
         translations_done = False
@@ -508,6 +513,7 @@ def import_youtube():
         # Step 7: Create and persist song object
         song_display_title = track_name
         if meta.get("english_title") and meta["english_title"].lower() != track_name.lower():
+        if meta.get("english_title") and meta["english_title"].lower() not in track_name.lower():
             song_display_title += f" ({meta['english_title']})"
 
         new_song = {

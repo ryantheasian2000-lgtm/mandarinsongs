@@ -22944,5 +22944,3892 @@
         ]
       }
     ]
+  },
+  {
+    "id": "song-298b3e2c",
+    "title": "Those Bygone Years 那些年",
+    "artist": "胡夏 Xia Hu",
+    "audioUrl": "/uploads/song-298b3e2c.m4a",
+    "audioPath": "C:\\Users\\ryanc\\OneDrive\\Documents\\ForFun\\mandarinsongs\\uploads\\song-298b3e2c.m4a",
+    "difficulty": "YouTube Import",
+    "isCustom": true,
+    "youtubeUrl": "https://www.youtube.com/watch?v=KqjgLbKZ1h0&list=RDKqjgLbKZ1h0&start_radio=1",
+    "hasSyncedLyrics": false,
+    "lines": [
+      {
+        "id": 0,
+        "startTime": 3.0,
+        "endTime": 10.0,
+        "hanzi": "Those Bygone Years 那些年",
+        "pinyin": "T h o s e B y g o n e Y e a r s nà xiē nián",
+        "english": "Click line or word for English definitions",
+        "words": [
+          {
+            "hanzi": "T",
+            "traditional": "T",
+            "pinyin": "T",
+            "tone": 5,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "h",
+            "traditional": "h",
+            "pinyin": "h",
+            "tone": 5,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "o",
+            "traditional": "o",
+            "pinyin": "o",
+            "tone": 5,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "s",
+            "traditional": "s",
+            "pinyin": "s",
+            "tone": 5,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "e",
+            "traditional": "e",
+            "pinyin": "e",
+            "tone": 5,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": " ",
+            "pinyin": "",
+            "tone": 5,
+            "translation": "",
+            "isPunctuation": true
+          },
+          {
+            "hanzi": "B",
+            "traditional": "B",
+            "pinyin": "B",
+            "tone": 5,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "y",
+            "traditional": "y",
+            "pinyin": "y",
+            "tone": 5,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "g",
+            "traditional": "g",
+            "pinyin": "g",
+            "tone": 5,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "o",
+            "traditional": "o",
+            "pinyin": "o",
+            "tone": 5,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "n",
+            "traditional": "n",
+            "pinyin": "n",
+            "tone": 5,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "e",
+            "traditional": "e",
+            "pinyin": "e",
+            "tone": 5,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": " ",
+            "pinyin": "",
+            "tone": 5,
+            "translation": "",
+            "isPunctuation": true
+          },
+          {
+            "hanzi": "Y",
+            "traditional": "Y",
+            "pinyin": "Y",
+            "tone": 5,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "e",
+            "traditional": "e",
+            "pinyin": "e",
+            "tone": 5,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "a",
+            "traditional": "a",
+            "pinyin": "a",
+            "tone": 5,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "r",
+            "traditional": "r",
+            "pinyin": "r",
+            "tone": 5,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "s",
+            "traditional": "s",
+            "pinyin": "s",
+            "tone": 5,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": " ",
+            "pinyin": "",
+            "tone": 5,
+            "translation": "",
+            "isPunctuation": true
+          },
+          {
+            "hanzi": "那",
+            "traditional": "那",
+            "pinyin": "nà",
+            "tone": 4,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "些",
+            "traditional": "些",
+            "pinyin": "xiē",
+            "tone": 1,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "年",
+            "traditional": "年",
+            "pinyin": "nián",
+            "tone": 2,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "startTime": 10.5,
+        "endTime": 14.55,
+        "hanzi": "胡夏 Xia Hu",
+        "pinyin": "hú xià X i a H u",
+        "english": "Click line or word for English definitions",
+        "words": [
+          {
+            "hanzi": "胡",
+            "traditional": "胡",
+            "pinyin": "hú",
+            "tone": 2,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "夏",
+            "traditional": "夏",
+            "pinyin": "xià",
+            "tone": 4,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": " ",
+            "pinyin": "",
+            "tone": 5,
+            "translation": "",
+            "isPunctuation": true
+          },
+          {
+            "hanzi": "X",
+            "traditional": "X",
+            "pinyin": "X",
+            "tone": 5,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "i",
+            "traditional": "i",
+            "pinyin": "i",
+            "tone": 5,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "a",
+            "traditional": "a",
+            "pinyin": "a",
+            "tone": 5,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": " ",
+            "pinyin": "",
+            "tone": 5,
+            "translation": "",
+            "isPunctuation": true
+          },
+          {
+            "hanzi": "H",
+            "traditional": "H",
+            "pinyin": "H",
+            "tone": 5,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "u",
+            "traditional": "u",
+            "pinyin": "u",
+            "tone": 5,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "song-55aad186",
+    "title": "童话 (Fairy Tale)",
+    "artist": "光良 (Michael Wong)",
+    "audioUrl": "/uploads/song-55aad186.m4a",
+    "audioPath": "C:\\Users\\ryanc\\OneDrive\\Documents\\ForFun\\mandarinsongs\\uploads\\song-55aad186.m4a",
+    "difficulty": "YouTube Import",
+    "isCustom": true,
+    "youtubeUrl": "https://www.youtube.com/watch?v=IBTmypxD2mU&list=RDIBTmypxD2mU&start_radio=1",
+    "hasSyncedLyrics": true,
+    "lines": [
+      {
+        "id": 0,
+        "startTime": 13.53,
+        "endTime": 20.16,
+        "hanzi": "忘了有多久 在沒聽到妳",
+        "pinyin": "wàng le yǒu duō jiǔ zài méi tīng dào nǐ",
+        "english": "Click line or word for English definitions",
+        "words": [
+          {
+            "hanzi": "忘",
+            "traditional": "忘",
+            "pinyin": "wàng",
+            "tone": 4,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "了",
+            "traditional": "了",
+            "pinyin": "le",
+            "tone": 5,
+            "translation": "aspect particle (completed action/change)",
+            "hsk": 1,
+            "pos": "particle",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "有",
+            "traditional": "有",
+            "pinyin": "yǒu",
+            "tone": 3,
+            "translation": "to have, there is/are",
+            "hsk": 1,
+            "pos": "verb",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "多",
+            "traditional": "多",
+            "pinyin": "duō",
+            "tone": 1,
+            "translation": "many, much, how (much/far/deep)",
+            "hsk": 1,
+            "pos": "adjective/adverb",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "久",
+            "traditional": "久",
+            "pinyin": "jiǔ",
+            "tone": 3,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": " ",
+            "traditional": " ",
+            "pinyin": "",
+            "tone": 5,
+            "translation": "",
+            "isPunctuation": true
+          },
+          {
+            "hanzi": "在",
+            "traditional": "在",
+            "pinyin": "zài",
+            "tone": 4,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "沒",
+            "traditional": "沒",
+            "pinyin": "méi",
+            "tone": 2,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "聽",
+            "traditional": "聽",
+            "pinyin": "tīng",
+            "tone": 1,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "到",
+            "traditional": "到",
+            "pinyin": "dào",
+            "tone": 4,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "妳",
+            "traditional": "妳",
+            "pinyin": "nǐ",
+            "tone": 3,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "startTime": 20.16,
+        "endTime": 27.55,
+        "hanzi": "對我說妳 最愛的故事",
+        "pinyin": "duì wǒ shuō nǐ zuì ài de gù shì",
+        "english": "Click line or word for English definitions",
+        "words": [
+          {
+            "hanzi": "對",
+            "traditional": "對",
+            "pinyin": "duì",
+            "tone": 4,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "我",
+            "traditional": "我",
+            "pinyin": "wǒ",
+            "tone": 3,
+            "translation": "I, me",
+            "hsk": 1,
+            "pos": "pronoun",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "說",
+            "traditional": "說",
+            "pinyin": "shuō",
+            "tone": 1,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "妳",
+            "traditional": "妳",
+            "pinyin": "nǐ",
+            "tone": 3,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": " ",
+            "traditional": " ",
+            "pinyin": "",
+            "tone": 5,
+            "translation": "",
+            "isPunctuation": true
+          },
+          {
+            "hanzi": "最",
+            "traditional": "最",
+            "pinyin": "zuì",
+            "tone": 4,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "愛",
+            "traditional": "愛",
+            "pinyin": "ài",
+            "tone": 4,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "的",
+            "traditional": "的",
+            "pinyin": "de",
+            "tone": 5,
+            "translation": "possessive particle, 's",
+            "hsk": 1,
+            "pos": "particle",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "故事",
+            "traditional": "故事",
+            "pinyin": "gù shì",
+            "tone": 4,
+            "translation": "story, tale",
+            "hsk": 3,
+            "pos": "noun",
+            "isPunctuation": false
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "startTime": 27.55,
+        "endTime": 34.39,
+        "hanzi": "我想了很久 我開始慌了",
+        "pinyin": "wǒ xiǎng le hěn jiǔ wǒ kāi shǐ huāng le",
+        "english": "Click line or word for English definitions",
+        "words": [
+          {
+            "hanzi": "我",
+            "traditional": "我",
+            "pinyin": "wǒ",
+            "tone": 3,
+            "translation": "I, me",
+            "hsk": 1,
+            "pos": "pronoun",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "想",
+            "traditional": "想",
+            "pinyin": "xiǎng",
+            "tone": 3,
+            "translation": "to think, miss, want to",
+            "hsk": 1,
+            "pos": "verb",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "了",
+            "traditional": "了",
+            "pinyin": "le",
+            "tone": 5,
+            "translation": "aspect particle (completed action/change)",
+            "hsk": 1,
+            "pos": "particle",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "很",
+            "traditional": "很",
+            "pinyin": "hěn",
+            "tone": 3,
+            "translation": "very, quite",
+            "hsk": 1,
+            "pos": "adverb",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "久",
+            "traditional": "久",
+            "pinyin": "jiǔ",
+            "tone": 3,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": " ",
+            "traditional": " ",
+            "pinyin": "",
+            "tone": 5,
+            "translation": "",
+            "isPunctuation": true
+          },
+          {
+            "hanzi": "我",
+            "traditional": "我",
+            "pinyin": "wǒ",
+            "tone": 3,
+            "translation": "I, me",
+            "hsk": 1,
+            "pos": "pronoun",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "開",
+            "traditional": "開",
+            "pinyin": "kāi",
+            "tone": 1,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "始",
+            "traditional": "始",
+            "pinyin": "shǐ",
+            "tone": 3,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "慌",
+            "traditional": "慌",
+            "pinyin": "huāng",
+            "tone": 1,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "了",
+            "traditional": "了",
+            "pinyin": "le",
+            "tone": 5,
+            "translation": "aspect particle (completed action/change)",
+            "hsk": 1,
+            "pos": "particle",
+            "isPunctuation": false
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "startTime": 34.39,
+        "endTime": 41.62,
+        "hanzi": "是不是我又做錯了什麼",
+        "pinyin": "shì bù shì wǒ yòu zuò cuò le shén me",
+        "english": "Click line or word for English definitions",
+        "words": [
+          {
+            "hanzi": "是",
+            "traditional": "是",
+            "pinyin": "shì",
+            "tone": 4,
+            "translation": "to be (am/is/are), yes",
+            "hsk": 1,
+            "pos": "verb",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "不",
+            "traditional": "不",
+            "pinyin": "bù",
+            "tone": 4,
+            "translation": "no, not",
+            "hsk": 1,
+            "pos": "adverb",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "是",
+            "traditional": "是",
+            "pinyin": "shì",
+            "tone": 4,
+            "translation": "to be (am/is/are), yes",
+            "hsk": 1,
+            "pos": "verb",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "我",
+            "traditional": "我",
+            "pinyin": "wǒ",
+            "tone": 3,
+            "translation": "I, me",
+            "hsk": 1,
+            "pos": "pronoun",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "又",
+            "traditional": "又",
+            "pinyin": "yòu",
+            "tone": 4,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "做",
+            "traditional": "做",
+            "pinyin": "zuò",
+            "tone": 4,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "錯",
+            "traditional": "錯",
+            "pinyin": "cuò",
+            "tone": 4,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "了",
+            "traditional": "了",
+            "pinyin": "le",
+            "tone": 5,
+            "translation": "aspect particle (completed action/change)",
+            "hsk": 1,
+            "pos": "particle",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "什",
+            "traditional": "什",
+            "pinyin": "shén",
+            "tone": 2,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "麼",
+            "traditional": "麼",
+            "pinyin": "me",
+            "tone": 5,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "startTime": 41.62,
+        "endTime": 48.66,
+        "hanzi": "妳哭著對我說 童話裡都是騙人的",
+        "pinyin": "nǐ kū zhù duì wǒ shuō tóng huà lǐ dōu shì piàn rén de",
+        "english": "Click line or word for English definitions",
+        "words": [
+          {
+            "hanzi": "妳",
+            "traditional": "妳",
+            "pinyin": "nǐ",
+            "tone": 3,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "哭",
+            "traditional": "哭",
+            "pinyin": "kū",
+            "tone": 1,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "著",
+            "traditional": "著",
+            "pinyin": "zhù",
+            "tone": 4,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "對",
+            "traditional": "對",
+            "pinyin": "duì",
+            "tone": 4,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "我",
+            "traditional": "我",
+            "pinyin": "wǒ",
+            "tone": 3,
+            "translation": "I, me",
+            "hsk": 1,
+            "pos": "pronoun",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "說",
+            "traditional": "說",
+            "pinyin": "shuō",
+            "tone": 1,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": " ",
+            "traditional": " ",
+            "pinyin": "",
+            "tone": 5,
+            "translation": "",
+            "isPunctuation": true
+          },
+          {
+            "hanzi": "童",
+            "traditional": "童",
+            "pinyin": "tóng",
+            "tone": 2,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "話",
+            "traditional": "話",
+            "pinyin": "huà",
+            "tone": 4,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "裡",
+            "traditional": "裡",
+            "pinyin": "lǐ",
+            "tone": 3,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "都是",
+            "traditional": "都是",
+            "pinyin": "dōu shì",
+            "tone": 1,
+            "translation": "all are, are all",
+            "hsk": 1,
+            "pos": "phrase",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "騙",
+            "traditional": "騙",
+            "pinyin": "piàn",
+            "tone": 4,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "人",
+            "traditional": "人",
+            "pinyin": "rén",
+            "tone": 2,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "的",
+            "traditional": "的",
+            "pinyin": "de",
+            "tone": 5,
+            "translation": "possessive particle, 's",
+            "hsk": 1,
+            "pos": "particle",
+            "isPunctuation": false
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "startTime": 48.66,
+        "endTime": 55.77,
+        "hanzi": "我不可能 是妳的王子",
+        "pinyin": "wǒ bù kě néng shì nǐ de wáng zi",
+        "english": "Click line or word for English definitions",
+        "words": [
+          {
+            "hanzi": "我",
+            "traditional": "我",
+            "pinyin": "wǒ",
+            "tone": 3,
+            "translation": "I, me",
+            "hsk": 1,
+            "pos": "pronoun",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "不",
+            "traditional": "不",
+            "pinyin": "bù",
+            "tone": 4,
+            "translation": "no, not",
+            "hsk": 1,
+            "pos": "adverb",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "可能",
+            "traditional": "可能",
+            "pinyin": "kě néng",
+            "tone": 3,
+            "translation": "maybe, possible, probable",
+            "hsk": 2,
+            "pos": "adverb/adjective",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": " ",
+            "traditional": " ",
+            "pinyin": "",
+            "tone": 5,
+            "translation": "",
+            "isPunctuation": true
+          },
+          {
+            "hanzi": "是",
+            "traditional": "是",
+            "pinyin": "shì",
+            "tone": 4,
+            "translation": "to be (am/is/are), yes",
+            "hsk": 1,
+            "pos": "verb",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "妳",
+            "traditional": "妳",
+            "pinyin": "nǐ",
+            "tone": 3,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "的",
+            "traditional": "的",
+            "pinyin": "de",
+            "tone": 5,
+            "translation": "possessive particle, 's",
+            "hsk": 1,
+            "pos": "particle",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "王",
+            "traditional": "王",
+            "pinyin": "wáng",
+            "tone": 2,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "子",
+            "traditional": "子",
+            "pinyin": "zi",
+            "tone": 5,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "startTime": 55.77,
+        "endTime": 62.75,
+        "hanzi": "也許妳不會懂 從妳說愛我以後",
+        "pinyin": "yě xǔ nǐ bù huì dǒng cóng nǐ shuō ài wǒ yǐ hòu",
+        "english": "Click line or word for English definitions",
+        "words": [
+          {
+            "hanzi": "也",
+            "traditional": "也",
+            "pinyin": "yě",
+            "tone": 3,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "許",
+            "traditional": "許",
+            "pinyin": "xǔ",
+            "tone": 3,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "妳",
+            "traditional": "妳",
+            "pinyin": "nǐ",
+            "tone": 3,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "不",
+            "traditional": "不",
+            "pinyin": "bù",
+            "tone": 4,
+            "translation": "no, not",
+            "hsk": 1,
+            "pos": "adverb",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "會",
+            "traditional": "會",
+            "pinyin": "huì",
+            "tone": 4,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "懂",
+            "traditional": "懂",
+            "pinyin": "dǒng",
+            "tone": 3,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": " ",
+            "traditional": " ",
+            "pinyin": "",
+            "tone": 5,
+            "translation": "",
+            "isPunctuation": true
+          },
+          {
+            "hanzi": "從",
+            "traditional": "從",
+            "pinyin": "cóng",
+            "tone": 2,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "妳",
+            "traditional": "妳",
+            "pinyin": "nǐ",
+            "tone": 3,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "說",
+            "traditional": "說",
+            "pinyin": "shuō",
+            "tone": 1,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "愛",
+            "traditional": "愛",
+            "pinyin": "ài",
+            "tone": 4,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "我",
+            "traditional": "我",
+            "pinyin": "wǒ",
+            "tone": 3,
+            "translation": "I, me",
+            "hsk": 1,
+            "pos": "pronoun",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "以",
+            "traditional": "以",
+            "pinyin": "yǐ",
+            "tone": 3,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "後",
+            "traditional": "後",
+            "pinyin": "hòu",
+            "tone": 4,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "startTime": 62.75,
+        "endTime": 69.96,
+        "hanzi": "我的天空 星星都亮了",
+        "pinyin": "wǒ de tiān kōng xīng xīng dōu liàng le",
+        "english": "Click line or word for English definitions",
+        "words": [
+          {
+            "hanzi": "我",
+            "traditional": "我",
+            "pinyin": "wǒ",
+            "tone": 3,
+            "translation": "I, me",
+            "hsk": 1,
+            "pos": "pronoun",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "的",
+            "traditional": "的",
+            "pinyin": "de",
+            "tone": 5,
+            "translation": "possessive particle, 's",
+            "hsk": 1,
+            "pos": "particle",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "天",
+            "traditional": "天",
+            "pinyin": "tiān",
+            "tone": 1,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "空",
+            "traditional": "空",
+            "pinyin": "kōng",
+            "tone": 1,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": " ",
+            "traditional": " ",
+            "pinyin": "",
+            "tone": 5,
+            "translation": "",
+            "isPunctuation": true
+          },
+          {
+            "hanzi": "星",
+            "traditional": "星",
+            "pinyin": "xīng",
+            "tone": 1,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "星",
+            "traditional": "星",
+            "pinyin": "xīng",
+            "tone": 1,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "都",
+            "traditional": "都",
+            "pinyin": "dōu",
+            "tone": 1,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "亮",
+            "traditional": "亮",
+            "pinyin": "liàng",
+            "tone": 4,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "了",
+            "traditional": "了",
+            "pinyin": "le",
+            "tone": 5,
+            "translation": "aspect particle (completed action/change)",
+            "hsk": 1,
+            "pos": "particle",
+            "isPunctuation": false
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "startTime": 69.96,
+        "endTime": 76.81,
+        "hanzi": "我願變成 童話裡 妳愛的那個天使",
+        "pinyin": "wǒ yuàn biàn chéng tóng huà lǐ nǐ ài de nà gè tiān shǐ",
+        "english": "Click line or word for English definitions",
+        "words": [
+          {
+            "hanzi": "我",
+            "traditional": "我",
+            "pinyin": "wǒ",
+            "tone": 3,
+            "translation": "I, me",
+            "hsk": 1,
+            "pos": "pronoun",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "願",
+            "traditional": "願",
+            "pinyin": "yuàn",
+            "tone": 4,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "變",
+            "traditional": "變",
+            "pinyin": "biàn",
+            "tone": 4,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "成",
+            "traditional": "成",
+            "pinyin": "chéng",
+            "tone": 2,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": " ",
+            "traditional": " ",
+            "pinyin": "",
+            "tone": 5,
+            "translation": "",
+            "isPunctuation": true
+          },
+          {
+            "hanzi": "童",
+            "traditional": "童",
+            "pinyin": "tóng",
+            "tone": 2,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "話",
+            "traditional": "話",
+            "pinyin": "huà",
+            "tone": 4,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "裡",
+            "traditional": "裡",
+            "pinyin": "lǐ",
+            "tone": 3,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": " ",
+            "traditional": " ",
+            "pinyin": "",
+            "tone": 5,
+            "translation": "",
+            "isPunctuation": true
+          },
+          {
+            "hanzi": "妳",
+            "traditional": "妳",
+            "pinyin": "nǐ",
+            "tone": 3,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "愛",
+            "traditional": "愛",
+            "pinyin": "ài",
+            "tone": 4,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "的",
+            "traditional": "的",
+            "pinyin": "de",
+            "tone": 5,
+            "translation": "possessive particle, 's",
+            "hsk": 1,
+            "pos": "particle",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "那",
+            "traditional": "那",
+            "pinyin": "nà",
+            "tone": 4,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "個",
+            "traditional": "個",
+            "pinyin": "gè",
+            "tone": 4,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "天使",
+            "traditional": "天使",
+            "pinyin": "tiān shǐ",
+            "tone": 1,
+            "translation": "angel",
+            "hsk": 4,
+            "pos": "noun",
+            "isPunctuation": false
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "startTime": 76.81,
+        "endTime": 83.87,
+        "hanzi": "張開雙手 變成翅膀守護妳",
+        "pinyin": "zhāng kāi shuāng shǒu biàn chéng chì bǎng shǒu hù nǐ",
+        "english": "Click line or word for English definitions",
+        "words": [
+          {
+            "hanzi": "張",
+            "traditional": "張",
+            "pinyin": "zhāng",
+            "tone": 1,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "開",
+            "traditional": "開",
+            "pinyin": "kāi",
+            "tone": 1,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "雙",
+            "traditional": "雙",
+            "pinyin": "shuāng",
+            "tone": 1,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "手",
+            "traditional": "手",
+            "pinyin": "shǒu",
+            "tone": 3,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": " ",
+            "traditional": " ",
+            "pinyin": "",
+            "tone": 5,
+            "translation": "",
+            "isPunctuation": true
+          },
+          {
+            "hanzi": "變",
+            "traditional": "變",
+            "pinyin": "biàn",
+            "tone": 4,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "成",
+            "traditional": "成",
+            "pinyin": "chéng",
+            "tone": 2,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "翅",
+            "traditional": "翅",
+            "pinyin": "chì",
+            "tone": 4,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "膀",
+            "traditional": "膀",
+            "pinyin": "bǎng",
+            "tone": 3,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "守",
+            "traditional": "守",
+            "pinyin": "shǒu",
+            "tone": 3,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "護",
+            "traditional": "護",
+            "pinyin": "hù",
+            "tone": 4,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "妳",
+            "traditional": "妳",
+            "pinyin": "nǐ",
+            "tone": 3,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "startTime": 83.87,
+        "endTime": 91.33,
+        "hanzi": "妳要相信 相信我們會像童話故事裡",
+        "pinyin": "nǐ yào xiāng xìn xiāng xìn wǒ men huì xiàng tóng huà gù shì lǐ",
+        "english": "Click line or word for English definitions",
+        "words": [
+          {
+            "hanzi": "妳",
+            "traditional": "妳",
+            "pinyin": "nǐ",
+            "tone": 3,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "要",
+            "traditional": "要",
+            "pinyin": "yào",
+            "tone": 4,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "相信",
+            "traditional": "相信",
+            "pinyin": "xiāng xìn",
+            "tone": 1,
+            "translation": "to believe, trust",
+            "hsk": 3,
+            "pos": "verb",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": " ",
+            "traditional": " ",
+            "pinyin": "",
+            "tone": 5,
+            "translation": "",
+            "isPunctuation": true
+          },
+          {
+            "hanzi": "相信",
+            "traditional": "相信",
+            "pinyin": "xiāng xìn",
+            "tone": 1,
+            "translation": "to believe, trust",
+            "hsk": 3,
+            "pos": "verb",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "我",
+            "traditional": "我",
+            "pinyin": "wǒ",
+            "tone": 3,
+            "translation": "I, me",
+            "hsk": 1,
+            "pos": "pronoun",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "們",
+            "traditional": "們",
+            "pinyin": "men",
+            "tone": 5,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "會",
+            "traditional": "會",
+            "pinyin": "huì",
+            "tone": 4,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "像",
+            "traditional": "像",
+            "pinyin": "xiàng",
+            "tone": 4,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "童",
+            "traditional": "童",
+            "pinyin": "tóng",
+            "tone": 2,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "話",
+            "traditional": "話",
+            "pinyin": "huà",
+            "tone": 4,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "故事",
+            "traditional": "故事",
+            "pinyin": "gù shì",
+            "tone": 4,
+            "translation": "story, tale",
+            "hsk": 3,
+            "pos": "noun",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "裡",
+            "traditional": "裡",
+            "pinyin": "lǐ",
+            "tone": 3,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          }
+        ]
+      },
+      {
+        "id": 11,
+        "startTime": 91.33,
+        "endTime": 108.8,
+        "hanzi": "幸福和快樂是結局",
+        "pinyin": "xìng fú hé kuài lè shì jié jú",
+        "english": "Click line or word for English definitions",
+        "words": [
+          {
+            "hanzi": "幸福",
+            "traditional": "幸福",
+            "pinyin": "xìng fú",
+            "tone": 4,
+            "translation": "happiness, blessed, happy",
+            "hsk": 4,
+            "pos": "noun/adjective",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "和",
+            "traditional": "和",
+            "pinyin": "hé",
+            "tone": 2,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "快",
+            "traditional": "快",
+            "pinyin": "kuài",
+            "tone": 4,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "樂",
+            "traditional": "樂",
+            "pinyin": "lè",
+            "tone": 4,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "是",
+            "traditional": "是",
+            "pinyin": "shì",
+            "tone": 4,
+            "translation": "to be (am/is/are), yes",
+            "hsk": 1,
+            "pos": "verb",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "結",
+            "traditional": "結",
+            "pinyin": "jié",
+            "tone": 2,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "局",
+            "traditional": "局",
+            "pinyin": "jú",
+            "tone": 2,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          }
+        ]
+      },
+      {
+        "id": 12,
+        "startTime": 108.8,
+        "endTime": 115.57,
+        "hanzi": "妳哭著對我說 童話裡都是騙人的",
+        "pinyin": "nǐ kū zhù duì wǒ shuō tóng huà lǐ dōu shì piàn rén de",
+        "english": "Click line or word for English definitions",
+        "words": [
+          {
+            "hanzi": "妳",
+            "traditional": "妳",
+            "pinyin": "nǐ",
+            "tone": 3,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "哭",
+            "traditional": "哭",
+            "pinyin": "kū",
+            "tone": 1,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "著",
+            "traditional": "著",
+            "pinyin": "zhù",
+            "tone": 4,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "對",
+            "traditional": "對",
+            "pinyin": "duì",
+            "tone": 4,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "我",
+            "traditional": "我",
+            "pinyin": "wǒ",
+            "tone": 3,
+            "translation": "I, me",
+            "hsk": 1,
+            "pos": "pronoun",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "說",
+            "traditional": "說",
+            "pinyin": "shuō",
+            "tone": 1,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": " ",
+            "traditional": " ",
+            "pinyin": "",
+            "tone": 5,
+            "translation": "",
+            "isPunctuation": true
+          },
+          {
+            "hanzi": "童",
+            "traditional": "童",
+            "pinyin": "tóng",
+            "tone": 2,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "話",
+            "traditional": "話",
+            "pinyin": "huà",
+            "tone": 4,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "裡",
+            "traditional": "裡",
+            "pinyin": "lǐ",
+            "tone": 3,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "都是",
+            "traditional": "都是",
+            "pinyin": "dōu shì",
+            "tone": 1,
+            "translation": "all are, are all",
+            "hsk": 1,
+            "pos": "phrase",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "騙",
+            "traditional": "騙",
+            "pinyin": "piàn",
+            "tone": 4,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "人",
+            "traditional": "人",
+            "pinyin": "rén",
+            "tone": 2,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "的",
+            "traditional": "的",
+            "pinyin": "de",
+            "tone": 5,
+            "translation": "possessive particle, 's",
+            "hsk": 1,
+            "pos": "particle",
+            "isPunctuation": false
+          }
+        ]
+      },
+      {
+        "id": 13,
+        "startTime": 115.57,
+        "endTime": 122.65,
+        "hanzi": "我不可能 是妳的王子",
+        "pinyin": "wǒ bù kě néng shì nǐ de wáng zi",
+        "english": "Click line or word for English definitions",
+        "words": [
+          {
+            "hanzi": "我",
+            "traditional": "我",
+            "pinyin": "wǒ",
+            "tone": 3,
+            "translation": "I, me",
+            "hsk": 1,
+            "pos": "pronoun",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "不",
+            "traditional": "不",
+            "pinyin": "bù",
+            "tone": 4,
+            "translation": "no, not",
+            "hsk": 1,
+            "pos": "adverb",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "可能",
+            "traditional": "可能",
+            "pinyin": "kě néng",
+            "tone": 3,
+            "translation": "maybe, possible, probable",
+            "hsk": 2,
+            "pos": "adverb/adjective",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": " ",
+            "traditional": " ",
+            "pinyin": "",
+            "tone": 5,
+            "translation": "",
+            "isPunctuation": true
+          },
+          {
+            "hanzi": "是",
+            "traditional": "是",
+            "pinyin": "shì",
+            "tone": 4,
+            "translation": "to be (am/is/are), yes",
+            "hsk": 1,
+            "pos": "verb",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "妳",
+            "traditional": "妳",
+            "pinyin": "nǐ",
+            "tone": 3,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "的",
+            "traditional": "的",
+            "pinyin": "de",
+            "tone": 5,
+            "translation": "possessive particle, 's",
+            "hsk": 1,
+            "pos": "particle",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "王",
+            "traditional": "王",
+            "pinyin": "wáng",
+            "tone": 2,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "子",
+            "traditional": "子",
+            "pinyin": "zi",
+            "tone": 5,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          }
+        ]
+      },
+      {
+        "id": 14,
+        "startTime": 122.65,
+        "endTime": 129.62,
+        "hanzi": "也許妳不會懂 從妳說愛我以後",
+        "pinyin": "yě xǔ nǐ bù huì dǒng cóng nǐ shuō ài wǒ yǐ hòu",
+        "english": "Click line or word for English definitions",
+        "words": [
+          {
+            "hanzi": "也",
+            "traditional": "也",
+            "pinyin": "yě",
+            "tone": 3,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "許",
+            "traditional": "許",
+            "pinyin": "xǔ",
+            "tone": 3,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "妳",
+            "traditional": "妳",
+            "pinyin": "nǐ",
+            "tone": 3,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "不",
+            "traditional": "不",
+            "pinyin": "bù",
+            "tone": 4,
+            "translation": "no, not",
+            "hsk": 1,
+            "pos": "adverb",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "會",
+            "traditional": "會",
+            "pinyin": "huì",
+            "tone": 4,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "懂",
+            "traditional": "懂",
+            "pinyin": "dǒng",
+            "tone": 3,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": " ",
+            "traditional": " ",
+            "pinyin": "",
+            "tone": 5,
+            "translation": "",
+            "isPunctuation": true
+          },
+          {
+            "hanzi": "從",
+            "traditional": "從",
+            "pinyin": "cóng",
+            "tone": 2,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "妳",
+            "traditional": "妳",
+            "pinyin": "nǐ",
+            "tone": 3,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "說",
+            "traditional": "說",
+            "pinyin": "shuō",
+            "tone": 1,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "愛",
+            "traditional": "愛",
+            "pinyin": "ài",
+            "tone": 4,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "我",
+            "traditional": "我",
+            "pinyin": "wǒ",
+            "tone": 3,
+            "translation": "I, me",
+            "hsk": 1,
+            "pos": "pronoun",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "以",
+            "traditional": "以",
+            "pinyin": "yǐ",
+            "tone": 3,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "後",
+            "traditional": "後",
+            "pinyin": "hòu",
+            "tone": 4,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          }
+        ]
+      },
+      {
+        "id": 15,
+        "startTime": 129.62,
+        "endTime": 136.7,
+        "hanzi": "我的天空 星星都亮了",
+        "pinyin": "wǒ de tiān kōng xīng xīng dōu liàng le",
+        "english": "Click line or word for English definitions",
+        "words": [
+          {
+            "hanzi": "我",
+            "traditional": "我",
+            "pinyin": "wǒ",
+            "tone": 3,
+            "translation": "I, me",
+            "hsk": 1,
+            "pos": "pronoun",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "的",
+            "traditional": "的",
+            "pinyin": "de",
+            "tone": 5,
+            "translation": "possessive particle, 's",
+            "hsk": 1,
+            "pos": "particle",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "天",
+            "traditional": "天",
+            "pinyin": "tiān",
+            "tone": 1,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "空",
+            "traditional": "空",
+            "pinyin": "kōng",
+            "tone": 1,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": " ",
+            "traditional": " ",
+            "pinyin": "",
+            "tone": 5,
+            "translation": "",
+            "isPunctuation": true
+          },
+          {
+            "hanzi": "星",
+            "traditional": "星",
+            "pinyin": "xīng",
+            "tone": 1,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "星",
+            "traditional": "星",
+            "pinyin": "xīng",
+            "tone": 1,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "都",
+            "traditional": "都",
+            "pinyin": "dōu",
+            "tone": 1,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "亮",
+            "traditional": "亮",
+            "pinyin": "liàng",
+            "tone": 4,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "了",
+            "traditional": "了",
+            "pinyin": "le",
+            "tone": 5,
+            "translation": "aspect particle (completed action/change)",
+            "hsk": 1,
+            "pos": "particle",
+            "isPunctuation": false
+          }
+        ]
+      },
+      {
+        "id": 16,
+        "startTime": 136.7,
+        "endTime": 143.85,
+        "hanzi": "我願變成 童話裡 妳愛的那個天使",
+        "pinyin": "wǒ yuàn biàn chéng tóng huà lǐ nǐ ài de nà gè tiān shǐ",
+        "english": "Click line or word for English definitions",
+        "words": [
+          {
+            "hanzi": "我",
+            "traditional": "我",
+            "pinyin": "wǒ",
+            "tone": 3,
+            "translation": "I, me",
+            "hsk": 1,
+            "pos": "pronoun",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "願",
+            "traditional": "願",
+            "pinyin": "yuàn",
+            "tone": 4,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "變",
+            "traditional": "變",
+            "pinyin": "biàn",
+            "tone": 4,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "成",
+            "traditional": "成",
+            "pinyin": "chéng",
+            "tone": 2,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": " ",
+            "traditional": " ",
+            "pinyin": "",
+            "tone": 5,
+            "translation": "",
+            "isPunctuation": true
+          },
+          {
+            "hanzi": "童",
+            "traditional": "童",
+            "pinyin": "tóng",
+            "tone": 2,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "話",
+            "traditional": "話",
+            "pinyin": "huà",
+            "tone": 4,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "裡",
+            "traditional": "裡",
+            "pinyin": "lǐ",
+            "tone": 3,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": " ",
+            "traditional": " ",
+            "pinyin": "",
+            "tone": 5,
+            "translation": "",
+            "isPunctuation": true
+          },
+          {
+            "hanzi": "妳",
+            "traditional": "妳",
+            "pinyin": "nǐ",
+            "tone": 3,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "愛",
+            "traditional": "愛",
+            "pinyin": "ài",
+            "tone": 4,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "的",
+            "traditional": "的",
+            "pinyin": "de",
+            "tone": 5,
+            "translation": "possessive particle, 's",
+            "hsk": 1,
+            "pos": "particle",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "那",
+            "traditional": "那",
+            "pinyin": "nà",
+            "tone": 4,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "個",
+            "traditional": "個",
+            "pinyin": "gè",
+            "tone": 4,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "天使",
+            "traditional": "天使",
+            "pinyin": "tiān shǐ",
+            "tone": 1,
+            "translation": "angel",
+            "hsk": 4,
+            "pos": "noun",
+            "isPunctuation": false
+          }
+        ]
+      },
+      {
+        "id": 17,
+        "startTime": 143.85,
+        "endTime": 150.81,
+        "hanzi": "張開雙手 變成翅膀守護妳",
+        "pinyin": "zhāng kāi shuāng shǒu biàn chéng chì bǎng shǒu hù nǐ",
+        "english": "Click line or word for English definitions",
+        "words": [
+          {
+            "hanzi": "張",
+            "traditional": "張",
+            "pinyin": "zhāng",
+            "tone": 1,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "開",
+            "traditional": "開",
+            "pinyin": "kāi",
+            "tone": 1,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "雙",
+            "traditional": "雙",
+            "pinyin": "shuāng",
+            "tone": 1,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "手",
+            "traditional": "手",
+            "pinyin": "shǒu",
+            "tone": 3,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": " ",
+            "traditional": " ",
+            "pinyin": "",
+            "tone": 5,
+            "translation": "",
+            "isPunctuation": true
+          },
+          {
+            "hanzi": "變",
+            "traditional": "變",
+            "pinyin": "biàn",
+            "tone": 4,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "成",
+            "traditional": "成",
+            "pinyin": "chéng",
+            "tone": 2,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "翅",
+            "traditional": "翅",
+            "pinyin": "chì",
+            "tone": 4,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "膀",
+            "traditional": "膀",
+            "pinyin": "bǎng",
+            "tone": 3,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "守",
+            "traditional": "守",
+            "pinyin": "shǒu",
+            "tone": 3,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "護",
+            "traditional": "護",
+            "pinyin": "hù",
+            "tone": 4,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "妳",
+            "traditional": "妳",
+            "pinyin": "nǐ",
+            "tone": 3,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          }
+        ]
+      },
+      {
+        "id": 18,
+        "startTime": 150.81,
+        "endTime": 158.37,
+        "hanzi": "妳要相信 相信我們會像童話故事裡",
+        "pinyin": "nǐ yào xiāng xìn xiāng xìn wǒ men huì xiàng tóng huà gù shì lǐ",
+        "english": "Click line or word for English definitions",
+        "words": [
+          {
+            "hanzi": "妳",
+            "traditional": "妳",
+            "pinyin": "nǐ",
+            "tone": 3,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "要",
+            "traditional": "要",
+            "pinyin": "yào",
+            "tone": 4,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "相信",
+            "traditional": "相信",
+            "pinyin": "xiāng xìn",
+            "tone": 1,
+            "translation": "to believe, trust",
+            "hsk": 3,
+            "pos": "verb",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": " ",
+            "traditional": " ",
+            "pinyin": "",
+            "tone": 5,
+            "translation": "",
+            "isPunctuation": true
+          },
+          {
+            "hanzi": "相信",
+            "traditional": "相信",
+            "pinyin": "xiāng xìn",
+            "tone": 1,
+            "translation": "to believe, trust",
+            "hsk": 3,
+            "pos": "verb",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "我",
+            "traditional": "我",
+            "pinyin": "wǒ",
+            "tone": 3,
+            "translation": "I, me",
+            "hsk": 1,
+            "pos": "pronoun",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "們",
+            "traditional": "們",
+            "pinyin": "men",
+            "tone": 5,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "會",
+            "traditional": "會",
+            "pinyin": "huì",
+            "tone": 4,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "像",
+            "traditional": "像",
+            "pinyin": "xiàng",
+            "tone": 4,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "童",
+            "traditional": "童",
+            "pinyin": "tóng",
+            "tone": 2,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "話",
+            "traditional": "話",
+            "pinyin": "huà",
+            "tone": 4,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "故事",
+            "traditional": "故事",
+            "pinyin": "gù shì",
+            "tone": 4,
+            "translation": "story, tale",
+            "hsk": 3,
+            "pos": "noun",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "裡",
+            "traditional": "裡",
+            "pinyin": "lǐ",
+            "tone": 3,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          }
+        ]
+      },
+      {
+        "id": 19,
+        "startTime": 158.37,
+        "endTime": 165.01,
+        "hanzi": "幸福和快樂是結局",
+        "pinyin": "xìng fú hé kuài lè shì jié jú",
+        "english": "Click line or word for English definitions",
+        "words": [
+          {
+            "hanzi": "幸福",
+            "traditional": "幸福",
+            "pinyin": "xìng fú",
+            "tone": 4,
+            "translation": "happiness, blessed, happy",
+            "hsk": 4,
+            "pos": "noun/adjective",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "和",
+            "traditional": "和",
+            "pinyin": "hé",
+            "tone": 2,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "快",
+            "traditional": "快",
+            "pinyin": "kuài",
+            "tone": 4,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "樂",
+            "traditional": "樂",
+            "pinyin": "lè",
+            "tone": 4,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "是",
+            "traditional": "是",
+            "pinyin": "shì",
+            "tone": 4,
+            "translation": "to be (am/is/are), yes",
+            "hsk": 1,
+            "pos": "verb",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "結",
+            "traditional": "結",
+            "pinyin": "jié",
+            "tone": 2,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "局",
+            "traditional": "局",
+            "pinyin": "jú",
+            "tone": 2,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          }
+        ]
+      },
+      {
+        "id": 20,
+        "startTime": 165.01,
+        "endTime": 172.16,
+        "hanzi": "我要變成 童話裡妳愛的那個天使",
+        "pinyin": "wǒ yào biàn chéng tóng huà lǐ nǐ ài de nà gè tiān shǐ",
+        "english": "Click line or word for English definitions",
+        "words": [
+          {
+            "hanzi": "我",
+            "traditional": "我",
+            "pinyin": "wǒ",
+            "tone": 3,
+            "translation": "I, me",
+            "hsk": 1,
+            "pos": "pronoun",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "要",
+            "traditional": "要",
+            "pinyin": "yào",
+            "tone": 4,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "變",
+            "traditional": "變",
+            "pinyin": "biàn",
+            "tone": 4,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "成",
+            "traditional": "成",
+            "pinyin": "chéng",
+            "tone": 2,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": " ",
+            "traditional": " ",
+            "pinyin": "",
+            "tone": 5,
+            "translation": "",
+            "isPunctuation": true
+          },
+          {
+            "hanzi": "童",
+            "traditional": "童",
+            "pinyin": "tóng",
+            "tone": 2,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "話",
+            "traditional": "話",
+            "pinyin": "huà",
+            "tone": 4,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "裡",
+            "traditional": "裡",
+            "pinyin": "lǐ",
+            "tone": 3,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "妳",
+            "traditional": "妳",
+            "pinyin": "nǐ",
+            "tone": 3,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "愛",
+            "traditional": "愛",
+            "pinyin": "ài",
+            "tone": 4,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "的",
+            "traditional": "的",
+            "pinyin": "de",
+            "tone": 5,
+            "translation": "possessive particle, 's",
+            "hsk": 1,
+            "pos": "particle",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "那",
+            "traditional": "那",
+            "pinyin": "nà",
+            "tone": 4,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "個",
+            "traditional": "個",
+            "pinyin": "gè",
+            "tone": 4,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "天使",
+            "traditional": "天使",
+            "pinyin": "tiān shǐ",
+            "tone": 1,
+            "translation": "angel",
+            "hsk": 4,
+            "pos": "noun",
+            "isPunctuation": false
+          }
+        ]
+      },
+      {
+        "id": 21,
+        "startTime": 172.16,
+        "endTime": 179.08,
+        "hanzi": "張開雙手 變成翅膀守護妳",
+        "pinyin": "zhāng kāi shuāng shǒu biàn chéng chì bǎng shǒu hù nǐ",
+        "english": "Click line or word for English definitions",
+        "words": [
+          {
+            "hanzi": "張",
+            "traditional": "張",
+            "pinyin": "zhāng",
+            "tone": 1,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "開",
+            "traditional": "開",
+            "pinyin": "kāi",
+            "tone": 1,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "雙",
+            "traditional": "雙",
+            "pinyin": "shuāng",
+            "tone": 1,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "手",
+            "traditional": "手",
+            "pinyin": "shǒu",
+            "tone": 3,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": " ",
+            "traditional": " ",
+            "pinyin": "",
+            "tone": 5,
+            "translation": "",
+            "isPunctuation": true
+          },
+          {
+            "hanzi": "變",
+            "traditional": "變",
+            "pinyin": "biàn",
+            "tone": 4,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "成",
+            "traditional": "成",
+            "pinyin": "chéng",
+            "tone": 2,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "翅",
+            "traditional": "翅",
+            "pinyin": "chì",
+            "tone": 4,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "膀",
+            "traditional": "膀",
+            "pinyin": "bǎng",
+            "tone": 3,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "守",
+            "traditional": "守",
+            "pinyin": "shǒu",
+            "tone": 3,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "護",
+            "traditional": "護",
+            "pinyin": "hù",
+            "tone": 4,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "妳",
+            "traditional": "妳",
+            "pinyin": "nǐ",
+            "tone": 3,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          }
+        ]
+      },
+      {
+        "id": 22,
+        "startTime": 179.08,
+        "endTime": 186.49,
+        "hanzi": "妳要相信 相信我們會像童話故事裡",
+        "pinyin": "nǐ yào xiāng xìn xiāng xìn wǒ men huì xiàng tóng huà gù shì lǐ",
+        "english": "Click line or word for English definitions",
+        "words": [
+          {
+            "hanzi": "妳",
+            "traditional": "妳",
+            "pinyin": "nǐ",
+            "tone": 3,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "要",
+            "traditional": "要",
+            "pinyin": "yào",
+            "tone": 4,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "相信",
+            "traditional": "相信",
+            "pinyin": "xiāng xìn",
+            "tone": 1,
+            "translation": "to believe, trust",
+            "hsk": 3,
+            "pos": "verb",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": " ",
+            "traditional": " ",
+            "pinyin": "",
+            "tone": 5,
+            "translation": "",
+            "isPunctuation": true
+          },
+          {
+            "hanzi": "相信",
+            "traditional": "相信",
+            "pinyin": "xiāng xìn",
+            "tone": 1,
+            "translation": "to believe, trust",
+            "hsk": 3,
+            "pos": "verb",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "我",
+            "traditional": "我",
+            "pinyin": "wǒ",
+            "tone": 3,
+            "translation": "I, me",
+            "hsk": 1,
+            "pos": "pronoun",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "們",
+            "traditional": "們",
+            "pinyin": "men",
+            "tone": 5,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "會",
+            "traditional": "會",
+            "pinyin": "huì",
+            "tone": 4,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "像",
+            "traditional": "像",
+            "pinyin": "xiàng",
+            "tone": 4,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "童",
+            "traditional": "童",
+            "pinyin": "tóng",
+            "tone": 2,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "話",
+            "traditional": "話",
+            "pinyin": "huà",
+            "tone": 4,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "故事",
+            "traditional": "故事",
+            "pinyin": "gù shì",
+            "tone": 4,
+            "translation": "story, tale",
+            "hsk": 3,
+            "pos": "noun",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "裡",
+            "traditional": "裡",
+            "pinyin": "lǐ",
+            "tone": 3,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          }
+        ]
+      },
+      {
+        "id": 23,
+        "startTime": 186.49,
+        "endTime": 193.47,
+        "hanzi": "幸福和快樂是結局",
+        "pinyin": "xìng fú hé kuài lè shì jié jú",
+        "english": "Click line or word for English definitions",
+        "words": [
+          {
+            "hanzi": "幸福",
+            "traditional": "幸福",
+            "pinyin": "xìng fú",
+            "tone": 4,
+            "translation": "happiness, blessed, happy",
+            "hsk": 4,
+            "pos": "noun/adjective",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "和",
+            "traditional": "和",
+            "pinyin": "hé",
+            "tone": 2,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "快",
+            "traditional": "快",
+            "pinyin": "kuài",
+            "tone": 4,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "樂",
+            "traditional": "樂",
+            "pinyin": "lè",
+            "tone": 4,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "是",
+            "traditional": "是",
+            "pinyin": "shì",
+            "tone": 4,
+            "translation": "to be (am/is/are), yes",
+            "hsk": 1,
+            "pos": "verb",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "結",
+            "traditional": "結",
+            "pinyin": "jié",
+            "tone": 2,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "局",
+            "traditional": "局",
+            "pinyin": "jú",
+            "tone": 2,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          }
+        ]
+      },
+      {
+        "id": 24,
+        "startTime": 193.47,
+        "endTime": 200.3,
+        "hanzi": "我會變成 童話裡 妳愛的那個天使",
+        "pinyin": "wǒ huì biàn chéng tóng huà lǐ nǐ ài de nà gè tiān shǐ",
+        "english": "Click line or word for English definitions",
+        "words": [
+          {
+            "hanzi": "我",
+            "traditional": "我",
+            "pinyin": "wǒ",
+            "tone": 3,
+            "translation": "I, me",
+            "hsk": 1,
+            "pos": "pronoun",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "會",
+            "traditional": "會",
+            "pinyin": "huì",
+            "tone": 4,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "變",
+            "traditional": "變",
+            "pinyin": "biàn",
+            "tone": 4,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "成",
+            "traditional": "成",
+            "pinyin": "chéng",
+            "tone": 2,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": " ",
+            "traditional": " ",
+            "pinyin": "",
+            "tone": 5,
+            "translation": "",
+            "isPunctuation": true
+          },
+          {
+            "hanzi": "童",
+            "traditional": "童",
+            "pinyin": "tóng",
+            "tone": 2,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "話",
+            "traditional": "話",
+            "pinyin": "huà",
+            "tone": 4,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "裡",
+            "traditional": "裡",
+            "pinyin": "lǐ",
+            "tone": 3,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": " ",
+            "traditional": " ",
+            "pinyin": "",
+            "tone": 5,
+            "translation": "",
+            "isPunctuation": true
+          },
+          {
+            "hanzi": "妳",
+            "traditional": "妳",
+            "pinyin": "nǐ",
+            "tone": 3,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "愛",
+            "traditional": "愛",
+            "pinyin": "ài",
+            "tone": 4,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "的",
+            "traditional": "的",
+            "pinyin": "de",
+            "tone": 5,
+            "translation": "possessive particle, 's",
+            "hsk": 1,
+            "pos": "particle",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "那",
+            "traditional": "那",
+            "pinyin": "nà",
+            "tone": 4,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "個",
+            "traditional": "個",
+            "pinyin": "gè",
+            "tone": 4,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "天使",
+            "traditional": "天使",
+            "pinyin": "tiān shǐ",
+            "tone": 1,
+            "translation": "angel",
+            "hsk": 4,
+            "pos": "noun",
+            "isPunctuation": false
+          }
+        ]
+      },
+      {
+        "id": 25,
+        "startTime": 200.3,
+        "endTime": 207.33,
+        "hanzi": "張開雙手 變成翅膀守護妳",
+        "pinyin": "zhāng kāi shuāng shǒu biàn chéng chì bǎng shǒu hù nǐ",
+        "english": "Click line or word for English definitions",
+        "words": [
+          {
+            "hanzi": "張",
+            "traditional": "張",
+            "pinyin": "zhāng",
+            "tone": 1,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "開",
+            "traditional": "開",
+            "pinyin": "kāi",
+            "tone": 1,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "雙",
+            "traditional": "雙",
+            "pinyin": "shuāng",
+            "tone": 1,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "手",
+            "traditional": "手",
+            "pinyin": "shǒu",
+            "tone": 3,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": " ",
+            "traditional": " ",
+            "pinyin": "",
+            "tone": 5,
+            "translation": "",
+            "isPunctuation": true
+          },
+          {
+            "hanzi": "變",
+            "traditional": "變",
+            "pinyin": "biàn",
+            "tone": 4,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "成",
+            "traditional": "成",
+            "pinyin": "chéng",
+            "tone": 2,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "翅",
+            "traditional": "翅",
+            "pinyin": "chì",
+            "tone": 4,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "膀",
+            "traditional": "膀",
+            "pinyin": "bǎng",
+            "tone": 3,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "守",
+            "traditional": "守",
+            "pinyin": "shǒu",
+            "tone": 3,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "護",
+            "traditional": "護",
+            "pinyin": "hù",
+            "tone": 4,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "妳",
+            "traditional": "妳",
+            "pinyin": "nǐ",
+            "tone": 3,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          }
+        ]
+      },
+      {
+        "id": 26,
+        "startTime": 207.33,
+        "endTime": 214.81,
+        "hanzi": "妳要相信 相信我們會像童話故事裡",
+        "pinyin": "nǐ yào xiāng xìn xiāng xìn wǒ men huì xiàng tóng huà gù shì lǐ",
+        "english": "Click line or word for English definitions",
+        "words": [
+          {
+            "hanzi": "妳",
+            "traditional": "妳",
+            "pinyin": "nǐ",
+            "tone": 3,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "要",
+            "traditional": "要",
+            "pinyin": "yào",
+            "tone": 4,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "相信",
+            "traditional": "相信",
+            "pinyin": "xiāng xìn",
+            "tone": 1,
+            "translation": "to believe, trust",
+            "hsk": 3,
+            "pos": "verb",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": " ",
+            "traditional": " ",
+            "pinyin": "",
+            "tone": 5,
+            "translation": "",
+            "isPunctuation": true
+          },
+          {
+            "hanzi": "相信",
+            "traditional": "相信",
+            "pinyin": "xiāng xìn",
+            "tone": 1,
+            "translation": "to believe, trust",
+            "hsk": 3,
+            "pos": "verb",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "我",
+            "traditional": "我",
+            "pinyin": "wǒ",
+            "tone": 3,
+            "translation": "I, me",
+            "hsk": 1,
+            "pos": "pronoun",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "們",
+            "traditional": "們",
+            "pinyin": "men",
+            "tone": 5,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "會",
+            "traditional": "會",
+            "pinyin": "huì",
+            "tone": 4,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "像",
+            "traditional": "像",
+            "pinyin": "xiàng",
+            "tone": 4,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "童",
+            "traditional": "童",
+            "pinyin": "tóng",
+            "tone": 2,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "話",
+            "traditional": "話",
+            "pinyin": "huà",
+            "tone": 4,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "故事",
+            "traditional": "故事",
+            "pinyin": "gù shì",
+            "tone": 4,
+            "translation": "story, tale",
+            "hsk": 3,
+            "pos": "noun",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "裡",
+            "traditional": "裡",
+            "pinyin": "lǐ",
+            "tone": 3,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          }
+        ]
+      },
+      {
+        "id": 27,
+        "startTime": 214.81,
+        "endTime": 225.51,
+        "hanzi": "幸福和快樂是結局",
+        "pinyin": "xìng fú hé kuài lè shì jié jú",
+        "english": "Click line or word for English definitions",
+        "words": [
+          {
+            "hanzi": "幸福",
+            "traditional": "幸福",
+            "pinyin": "xìng fú",
+            "tone": 4,
+            "translation": "happiness, blessed, happy",
+            "hsk": 4,
+            "pos": "noun/adjective",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "和",
+            "traditional": "和",
+            "pinyin": "hé",
+            "tone": 2,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "快",
+            "traditional": "快",
+            "pinyin": "kuài",
+            "tone": 4,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "樂",
+            "traditional": "樂",
+            "pinyin": "lè",
+            "tone": 4,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "是",
+            "traditional": "是",
+            "pinyin": "shì",
+            "tone": 4,
+            "translation": "to be (am/is/are), yes",
+            "hsk": 1,
+            "pos": "verb",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "結",
+            "traditional": "結",
+            "pinyin": "jié",
+            "tone": 2,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "局",
+            "traditional": "局",
+            "pinyin": "jú",
+            "tone": 2,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          }
+        ]
+      },
+      {
+        "id": 28,
+        "startTime": 225.51,
+        "endTime": 229.51,
+        "hanzi": "一起寫 我們的結局",
+        "pinyin": "yī qǐ xiě wǒ men de jié jú",
+        "english": "Click line or word for English definitions",
+        "words": [
+          {
+            "hanzi": "一",
+            "traditional": "一",
+            "pinyin": "yī",
+            "tone": 1,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "起",
+            "traditional": "起",
+            "pinyin": "qǐ",
+            "tone": 3,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "寫",
+            "traditional": "寫",
+            "pinyin": "xiě",
+            "tone": 3,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": " ",
+            "traditional": " ",
+            "pinyin": "",
+            "tone": 5,
+            "translation": "",
+            "isPunctuation": true
+          },
+          {
+            "hanzi": "我",
+            "traditional": "我",
+            "pinyin": "wǒ",
+            "tone": 3,
+            "translation": "I, me",
+            "hsk": 1,
+            "pos": "pronoun",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "們",
+            "traditional": "們",
+            "pinyin": "men",
+            "tone": 5,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "的",
+            "traditional": "的",
+            "pinyin": "de",
+            "tone": 5,
+            "translation": "possessive particle, 's",
+            "hsk": 1,
+            "pos": "particle",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "結",
+            "traditional": "結",
+            "pinyin": "jié",
+            "tone": 2,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          },
+          {
+            "hanzi": "局",
+            "traditional": "局",
+            "pinyin": "jú",
+            "tone": 2,
+            "translation": "Character",
+            "hsk": 1,
+            "pos": "character",
+            "isPunctuation": false
+          }
+        ]
+      }
+    ]
   }
 ]

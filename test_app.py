@@ -264,6 +264,31 @@ class HuayuKaraokeTestCase(unittest.TestCase):
             youtube_lrclib_service.download_youtube_audio = orig_download
             app.gemini_service.translate_lyrics = orig_translate
 
+    def test_english_word_tokenization(self):
+        tokens = dictionary_service.segment_and_annotate_line("Michael Wong 光良【童话】")
+        words = [t["hanzi"] for t in tokens if not t.get("isPunctuation")]
+        self.assertIn("Michael", words)
+        self.assertIn("Wong", words)
+        self.assertIn("光", words)
+        self.assertIn("良", words)
+        self.assertIn("童话", words)
+        # Ensure letters are not split individually
+        self.assertNotIn("M", words)
+        self.assertNotIn("i", words)
+
+        # Check pinyin assembly
+        pinyin_str = dictionary_service.generate_line_pinyin("Michael Wong 光良 童话")
+        self.assertEqual(pinyin_str, "Michael Wong guāng liáng tóng huà")
+
+    def test_metadata_heuristic_extraction(self):
+        meta = app.gemini_service.extract_song_metadata_from_youtube(
+            video_title="Michael Wong 光良【 Fairy Tale 童话 Tong Hua 】",
+            author="Pandarin"
+        )
+        self.assertEqual(meta["track_name"], "童话")
+        self.assertEqual(meta["artist_name"], "光良")
+        self.assertEqual(meta["english_title"], "Fairy Tale")
+
 
 if __name__ == "__main__":
     unittest.main()

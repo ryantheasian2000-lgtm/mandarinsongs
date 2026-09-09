@@ -245,10 +245,14 @@ def generate_line_pinyin(hanzi_line: str) -> str:
     return " ".join(pinyin_parts)
 
 
+PUNCTUATION_CHARS = set(" ，。！？、；：“”‘’（）《》…—,.!?:;\"'() \t\n【】[]{}<>~`-_/\\|+*=&^%$#@·「」『』～★☆♪♫")
+
+
 def segment_and_annotate_line(hanzi_line: str, pinyin_line: Optional[str] = None) -> List[Dict]:
     """
     Segments a Chinese line into word tokens with pinyin, definition, and tone.
     Uses dictionary matching with pypinyin fallback.
+    Uses dictionary matching with pypinyin fallback, correctly grouping English words and punctuation.
     """
     cleaned = hanzi_line.strip()
     i = 0
@@ -263,14 +267,34 @@ def segment_and_annotate_line(hanzi_line: str, pinyin_line: Optional[str] = None
         
         # Skip punctuation or whitespace
         if char in " ，。！？、；：“”‘’（）《》…—,.!?:;\"'() \t\n":
+        # 1. Skip punctuation or whitespace
+        if char in PUNCTUATION_CHARS:
             tokens.append({
                 "hanzi": char,
+                "traditional": char,
                 "pinyin": "",
                 "tone": 5,
                 "translation": "",
                 "isPunctuation": True
             })
             i += 1
+            continue
+
+        # 2. Match contiguous English/ASCII alphanumeric words (e.g., "Michael", "Wong", "123")
+        ascii_match = re.match(r"[A-Za-z0-9]+(?:'[A-Za-z0-9]+)?", cleaned[i:])
+        if ascii_match:
+            word = ascii_match.group(0)
+            tokens.append({
+                "hanzi": word,
+                "traditional": word,
+                "pinyin": word,
+                "tone": 5,
+                "translation": word,
+                "hsk": 0,
+                "pos": "english" if any(c.isalpha() for c in word) else "number",
+                "isPunctuation": False
+            })
+            i += len(word)
             continue
 
         matched = False

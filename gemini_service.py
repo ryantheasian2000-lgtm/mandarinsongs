@@ -4,6 +4,7 @@ Handles Google Cloud policy restrictions and payload limitations gracefully.
 """
 
 import os
+import re
 import json
 import base64
 import ssl
@@ -29,7 +30,8 @@ except Exception:
 FALLBACK_MODELS = [
     "gemini-3.5-flash-lite",
     "gemini-3.5-flash",
-    "gemini-3.6-flash"
+    "gemini-3.6-flash",
+    "gemini-3.1-flash"
 ]
 
 def get_api_key(passed_key: Optional[str] = None) -> Optional[str]:
@@ -388,10 +390,82 @@ Return strictly valid JSON:
     else:
         artist = author.replace("- Topic", "").strip() if author else "Mandarin Artist"
         track = clean_title
+    for tag in [
+        "【Official MV】", "[Official MV]", "【官方MV】", "官方MV", "Official Music Video",
+        "Official Video", "Official Audio", "MV", "HD", "4K", "1080P", "1080p",
+        "（歌詞版）", "【歌詞】", "歌詞", "Lyrics", "字幕版", "動態歌詞", "KTV", "Audio", "HQ"
+    ]:
+        clean_title = re.sub(re.escape(tag), "", clean_title, flags=re.IGNORECASE)
+
+    clean_title = clean_title.strip(" -_")
+
+    def extract_chinese(text: str) -> str:
+        return "".join(re.findall(r"[\u4e00-\u9fff]+", text))
+
+    track = ""
+    artist = ""
+    english_title = ""
+
+    # Known uploader/channel keywords that are not singer names
+    is_author_channel = any(
+        kw in (author or "").lower() for kw in [
+            "topic", "records", "music", "pandarin", "channel", "video", "official",
+            "唱片", "音乐", "音樂", "娱乐", "娛樂", "官方"
+        ]
+    )
+
+    # 1. Check for bracket patterns: e.g. Artist【Title】or Title【Artist】
+    bracket_m = re.search(r"[【《\[\(](.*?)(?:[】》\]\)]|$)", clean_title)
+    if bracket_m:
+        inside = bracket_m.group(1).strip()
+        outside = re.sub(r"[【《\[\(].*?(?:[】》\]\)]|$)", " ", clean_title).strip(" -_")
+        
+        inside_zh = extract_chinese(inside)
+        outside_zh = extract_chinese(outside)
+
+        if inside_zh and outside_zh:
+            # Usually outside is Artist and inside is Track (e.g. Michael Wong 光良【 Fairy Tale 童话 Tong Hua 】)
+            track = inside_zh
+            artist = outside_zh
+            eng_words = re.findall(r"[A-Za-z]+(?:\s+[A-Za-z]+)*", inside)
+            if eng_words:
+                english_title = eng_words[0].strip()
+        elif inside_zh:
+            track = inside_zh
+            artist = outside_zh or (author if not is_author_channel else "Mandarin Artist")
+        elif outside_zh:
+            track = outside_zh
+            artist = inside or (author if not is_author_channel else "Mandarin Artist")
+        else:
+            track = inside or outside
+            artist = outside if inside else (author if not is_author_channel else "Mandarin Artist")
+
+    # 2. Check for dash split: Artist - Track or Track - Artist
+    if not track and (" - " in clean_title or "-" in clean_title):
+        parts = [p.strip() for p in re.split(r"\s*-\s*", clean_title) if p.strip()]
+        if len(parts) >= 2:
+            p0, p1 = parts[0], parts[1]
+            p0_zh = extract_chinese(p0)
+            p1_zh = extract_chinese(p1)
+            if p0_zh and p1_zh:
+                artist = p0_zh
+                track = p1_zh
+            else:
+                artist = p0
+                track = p1
+
+    # 3. Fallback to full cleaned title and author
+    if not track:
+        zh_title = extract_chinese(clean_title)
+        track = zh_title if zh_title else clean_title.strip(" -_[]【】()")
+        artist = extract_chinese(author) or (author if not is_author_channel else "")
+        if not artist:
+            artist = "Mandarin Artist"
 
     return {
         "track_name": track,
         "artist_name": artist,
         "english_title": "",
+        "english_title": english_title,
         "album_name": ""
     }

@@ -68,6 +68,23 @@ class DictionaryManager {
     // Tone class
     const tone = wordData.tone || 1;
     this.pinyinEl.className = `text-base font-semibold tone-${tone}`;
+    if (wordData.pos === "english" || wordData.pos === "number") {
+      this.tradEl.textContent = "";
+      this.pinyinEl.textContent = wordData.hanzi || "";
+      this.pinyinEl.className = "text-base font-semibold text-slate-300";
+      this.hskBadge.textContent = wordData.pos === "english" ? "English" : "Number";
+      this.hskBadge.className = "text-[10px] font-semibold px-2 py-0.5 rounded-full bg-slate-700 text-slate-300";
+      this.translationEl.textContent = wordData.pos === "english" ? "English word in lyrics" : "Numeral";
+    } else {
+      this.tradEl.textContent = wordData.traditional ? `繁: ${wordData.traditional}` : "";
+      this.pinyinEl.textContent = wordData.pinyin || "";
+      const tone = wordData.tone || 1;
+      this.pinyinEl.className = `text-base font-semibold tone-${tone}`;
+      const hsk = wordData.hsk || 1;
+      this.hskBadge.textContent = `HSK ${hsk}`;
+      this.hskBadge.className = `text-[10px] font-semibold px-2 py-0.5 rounded-full tone-bg-${tone}`;
+      this.translationEl.textContent = wordData.translation || "Meaning unavailable";
+    }
 
     // HSK Badge
     const hsk = wordData.hsk || 1;

@@ -131,6 +131,7 @@ class KaraokePlayer {
           } else {
             const displayChar = this.isTraditional ? (w.traditional || w.hanzi) : w.hanzi;
             const toneClass = `tone-${w.tone || 1}`;
+            const toneClass = (w.pos === "english" || w.pos === "number") ? "tone-5" : `tone-${w.tone || 1}`;
             wordsHtml += `
               <span class="word-chip ${toneClass}" 
                     data-line-idx="${index}" 
